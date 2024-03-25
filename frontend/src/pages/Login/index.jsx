@@ -18,7 +18,7 @@ function LoginPage() {
             srcset={loginBannerImage}
           />
         </div>
-        <div className="col-lg-6 col-md-12 col-sm-12 py-5">
+        <div className="col-lg-6 col-md-12 col-sm-12 p-0">
           <div className="LoginPage__form__area">
             <img src="Logo.png" alt="Logo" />
             <div className="LoginPage__form__area__form__wrapper">
@@ -34,7 +34,7 @@ function LoginPage() {
                   type="password"
                 />
               </div>
-              <Link to="/forget-password" >Forgot password?</Link>
+              <Link to="/forget-password">Forgot password?</Link>
               <button className="form__submit"> Sign in</button>
             </div>
             <p>
