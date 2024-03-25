@@ -10,7 +10,7 @@ import "./Input.scss";
 function Input({ placeholder, icon, type = "text" }) {
   return (
     <div className="Input__wrapper w-100">
-      <img src={icon} alt="InputIcon" />
+      {icon ? <img src={icon} alt="InputIcon" /> : null}
       <input type={type} placeholder={placeholder} />
     </div>
   );

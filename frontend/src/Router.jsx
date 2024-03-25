@@ -1,12 +1,16 @@
-import { Route } from 'react-router-dom'
-import React from 'react'
-import { Routes } from 'react-router-dom'
-import LoginPage from './pages/Login';
+import { Route } from "react-router-dom";
+import React from "react";
+import { Routes } from "react-router-dom";
+import LoginPage from "./pages/Login";
+import RegisterPage from "./pages/Register";
 
 function Router() {
-    return <Routes>
+  return (
+    <Routes>
       <Route path="/" element={<LoginPage />} />
-  </Routes>;
+      <Route path="/register" element={<RegisterPage />} />
+    </Routes>
+  );
 }
 
-export default Router
+export default Router;
