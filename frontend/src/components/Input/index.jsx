@@ -9,7 +9,11 @@ import "./Input.scss";
 
 function Input({ placeholder, icon, type = "text" }) {
   return (
-    <div className="Input__wrapper w-100">
+    <div
+      className={`Input__wrapper w-100 ${
+        type === "checkbox" ? `checkbox__wrapper` : ``
+      }`}
+    >
       {icon ? <img src={icon} alt="InputIcon" /> : null}
       <input type={type} placeholder={placeholder} />
     </div>
