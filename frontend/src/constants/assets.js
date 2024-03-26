@@ -5,6 +5,10 @@ import Dumbbell_women from "../assets/images/Dumbbell_women.png";
 import userIcon from "../assets/images/icons/User.svg";
 import passwordIcon from "../assets/images/icons/password.svg";
 import uploadIcon from "../assets/images/icons/upload.svg";
+import dashboardIcon from "../assets/images/icons/dashboard.svg";
+import aboutusIcon from "../assets/images/icons/about.svg";
+import membershipIcon from "../assets/images/icons/membership.svg";
+import targetIcon from "../assets/images/icons/target.svg";
 
 export {
   loginBannerImage,
@@ -13,4 +17,8 @@ export {
   userIcon,
   passwordIcon,
   uploadIcon,
+  dashboardIcon,
+  aboutusIcon,
+  membershipIcon,
+  targetIcon,
 };

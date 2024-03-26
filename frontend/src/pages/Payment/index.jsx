@@ -41,7 +41,7 @@ function Payment() {
                     <Link to="/">Terms & Conditions.</Link>
                   </p>
                 </div>
-                <button className="form__submit"> Sign in</button>
+                <button className="form__submit"> Submit</button>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 payment__card__left">
                 <img src={Dumbbell_women} alt="Dumbbell_women" />
