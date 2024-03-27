@@ -9,6 +9,8 @@ import dashboardIcon from "../assets/images/icons/dashboard.svg";
 import aboutusIcon from "../assets/images/icons/about.svg";
 import membershipIcon from "../assets/images/icons/membership.svg";
 import targetIcon from "../assets/images/icons/target.svg";
+import logoutIcon from "../assets/images/icons/logout.svg";
+import menuIcon from "../assets/images/icons/menu.svg";
 
 export {
   loginBannerImage,
@@ -21,4 +23,6 @@ export {
   aboutusIcon,
   membershipIcon,
   targetIcon,
+  logoutIcon,
+  menuIcon,
 };
