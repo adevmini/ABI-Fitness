@@ -12,6 +12,10 @@ import membershipIcon from "../assets/images/icons/membership.svg";
 import targetIcon from "../assets/images/icons/target.svg";
 import logoutIcon from "../assets/images/icons/logout.svg";
 import menuIcon from "../assets/images/icons/menu.svg";
+import openIcon from "../assets/images/icons/open.svg";
+import locationIcon from "../assets/images/icons/location.svg";
+import callIcon from "../assets/images/icons/call.svg";
+import mailIcon from "../assets/images/icons/mail.svg";
 
 export {
   loginBannerImage,
@@ -27,4 +31,8 @@ export {
   logoutIcon,
   menuIcon,
   aboutBannerImage,
+  openIcon,
+  locationIcon,
+  callIcon,
+  mailIcon,
 };
