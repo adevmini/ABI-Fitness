@@ -16,6 +16,8 @@ import openIcon from "../assets/images/icons/open.svg";
 import locationIcon from "../assets/images/icons/location.svg";
 import callIcon from "../assets/images/icons/call.svg";
 import mailIcon from "../assets/images/icons/mail.svg";
+import searchIcon from "../assets/images/icons/search.svg";
+import arrowUpIcon from "../assets/images/icons/arrow-up-right.svg";
 
 export {
   loginBannerImage,
@@ -35,4 +37,6 @@ export {
   locationIcon,
   callIcon,
   mailIcon,
+  searchIcon,
+  arrowUpIcon,
 };

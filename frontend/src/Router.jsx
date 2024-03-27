@@ -7,6 +7,7 @@ import PaymentPage from "./pages/Payment";
 import AboutUsPage from "./pages/AboutUs";
 import MemberShipPage from "./pages/MemberShip";
 import TargetPage from "./pages/Target";
+import InstructorPage from "./pages/Instructor";
 
 function Router() {
   return (
@@ -17,6 +18,7 @@ function Router() {
       <Route path="/membership" element={<MemberShipPage />} />
       <Route path="/about-us" element={<AboutUsPage />} />
       <Route path="/target" element={<TargetPage />} />
+      <Route path="/instructor" element={<InstructorPage />} />
     </Routes>
   );
 }
