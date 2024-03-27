@@ -11,8 +11,8 @@ function Input({ placeholder, icon, type = "text", wrapperStyles }) {
   return (
     <div
       className={`Input__wrapper w-100 ${
-        type === "checkbox" ? `checkbox__wrapper` : ``
-        }`}
+        type === "checkbox" || type === "radio" ? `checkbox__wrapper` : ``
+      }`}
       style={wrapperStyles}
     >
       {icon ? <img src={icon} alt="InputIcon" /> : null}
