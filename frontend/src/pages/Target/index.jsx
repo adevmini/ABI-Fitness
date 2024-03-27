@@ -1,38 +1,39 @@
 import React from "react";
-import "./MemberShip.scss";
+import "./Target.scss";
 import MainLayout from "../../layouts/MainLayout";
 import Input from "../../components/Input";
 
-export default function MemberShip() {
+export default function Target() {
   return (
     <MainLayout>
-      <div className="container MemberShip__wrapper">
-        <h1>My Membership</h1>
-        <div className="membership">
+      <div className="container Target__wrapper">
+        <h1>SET TARGET</h1>
+        <small>Select your weekly target</small>
+        <div className="Target">
           <div className="card">
             <div className="card-body">
               <section>
-                <span>Membership Type :</span>
-                <div className="memership__input">
+                <span>Leg Days :</span>
+                <div className="Target__input">
                   <Input />
                 </div>
               </section>
               <section>
-                <span>Time Phase :</span>
-                <div className="memership__input">
+                <span>Arm Days :</span>
+                <div className="Target__input">
                   <Input />
                 </div>
               </section>
               <section>
-                <span>Instructor :</span>
-                <div className="memership__input">
+                <span>Chest Days </span>
+                <div className="Target__input">
                   <Input />
                 </div>
               </section>
             </div>
             <h4>
-              Next payment due in 6 months and 23 days.{" "}
-              <button>Update Membership</button>
+              Don’t forget to update about your workout .{" "}
+              <button> Dashboard</button>
             </h4>
           </div>
         </div>

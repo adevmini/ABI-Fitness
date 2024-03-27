@@ -6,6 +6,7 @@ import RegisterPage from "./pages/Register";
 import PaymentPage from "./pages/Payment";
 import AboutUsPage from "./pages/AboutUs";
 import MemberShipPage from "./pages/MemberShip";
+import TargetPage from "./pages/Target";
 
 function Router() {
   return (
@@ -15,6 +16,7 @@ function Router() {
       <Route path="/payment" element={<PaymentPage />} />
       <Route path="/membership" element={<MemberShipPage />} />
       <Route path="/about-us" element={<AboutUsPage />} />
+      <Route path="/target" element={<TargetPage />} />
     </Routes>
   );
 }

@@ -1,14 +1,18 @@
-.MemberShip__wrapper {
+.Target__wrapper {
     h1 {
         color: #0c396e;
         font-weight: bold;
         text-transform: uppercase;
+        line-height: 1rem;
     }
-    .membership {
+    small {
+        color: #696969;
+    }
+    .Target {
         .card {
             border: 1px solid #000;
             background-color: transparent;
-            margin-bottom: 10rem;
+            margin: 3rem 0 10rem 0;
             .card-body {
                 background-color: transparent;
                 section {
@@ -17,7 +21,7 @@
                     justify-content: center;
                     width: 90%;
                     overflow: hidden;
-                    .memership__input {
+                    .Target__input {
                         width: 70%;
                     }
                     span {
@@ -44,7 +48,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .membership {
+    .Target {
         .card {
             .card-body {
                 section {
@@ -59,7 +63,7 @@
 }
 
 @media screen and (max-width: 500px) {
-    .membership {
+    .Target {
         .card {
             .card-body {
                 section {
