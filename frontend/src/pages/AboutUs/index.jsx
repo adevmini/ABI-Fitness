@@ -3,7 +3,9 @@ import "./AboutUs.scss";
 import MainLayout from "../../layouts/MainLayout";
 
 function AboutUs() {
-  return <MainLayout>AboutUs</MainLayout>;
+  return <MainLayout>
+    
+  </MainLayout>;
 }
 
 export default AboutUs;

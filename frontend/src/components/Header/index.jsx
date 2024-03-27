@@ -14,7 +14,9 @@ function Header() {
   const [open, setOpen] = useState(false);
   return (
     <header>
-      <img src="/Logo.png" alt="logo" className="Header__logo" />
+      <Link to="/">
+        <img src="/Logo.png" alt="logo" className="Header__logo" />
+      </Link>
       <div className="Header__links">
         <ul className={open ? "active" : ""}>
           <li>
